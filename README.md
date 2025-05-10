@@ -16,4 +16,28 @@ LLM Dump Hunter is a Termux-ready Python tool that scans `.txt` and `.json` file
 ### Usage
 
 ```bash
-python llm_dump_hunter.py
+python llm_dump_hunter.py'
+
+
+
+### EXAMPLE OUTPUT
+    === API Keys ===
+    sk_live_abc123...
+    AIzaSy...
+  
+    === Email Addresses ===
+    admin@example.com
+
+    === Private Keys ===
+    -----BEGIN RSA PRIVATE KEY-----
+
+CTRL+O → ENTER → CTRL+X
+
+---
+
+### **5. Commit & push to GitHub**
+
+```bash
+git add .
+git commit -m "Initial version of LLM Dump Hunter"
+git push origin main
